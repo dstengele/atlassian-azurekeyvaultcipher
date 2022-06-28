@@ -6,10 +6,7 @@ This library allows one to directly use a password from Azure Keyvault for Datab
 * Atlassian Application running in Azure (e.g. on a VM)
 * Managed Identity for the VM
 * Access to the Keyvault with the Managed Identity ⚠
-* The following two jars for your Jira version (can be found in `JIRA_INSTALL_DIR/atlassian-jira/WEB-INF/lib`):
-    + `password-cipher-api-x.x.x.jar` (copy to `PROJECT_ROOT/libs/com/atlassian/db/config/password-cipher-api/x.x.x`)
-    + `password-cipher-base-x.x.x.jar` (copy to `PROJECT_ROOT/libs/com/atlassian/db/config/password-cipher-base/x.x.x`)
-    
+
 ## Building
 With Maven:
 ```shell
